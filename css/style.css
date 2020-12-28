@@ -1,0 +1,496 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  background: #ffffff;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --color: #757575;
+  --colot-text: #212121;
+  --color-hover: #2196f3;
+  --background: #2f303a;
+  --text-text: #ffffff;
+  --background-team: #f5f4fa;
+}
+
+.list-no-style {
+  list-style: none;
+  display: flex;
+}
+
+.list-no-style-nav .item + .item {
+  margin-left: 50px;
+}
+
+.header a:hover,
+.header a:focus,
+.header a:active {
+  color: var(--color-hover);
+}
+
+.list-no-style-nav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-right: 331px;
+  margin-left: 93px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto;
+  height: 80px;
+  width: 1170px;
+}
+
+.WebStudio {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-hover);
+  text-decoration: none;
+  font-family: Raleway;
+  display: block;
+}
+
+.studio {
+  color: var(--color-hover);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.portfolio {
+  color: var(--colot-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+.contact {
+  color: var(--colot-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.studio,
+.portfolio,
+.contact {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mailtel a {
+  list-style: none;
+  color: var(--color);
+  text-decoration: none;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mailtel {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.mailtel .item + .item {
+  margin-left: 50px;
+}
+
+.effect {
+  background-color: var(--background);
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.business {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-text);
+  padding-top: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.button {
+  border: none;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: var(--color-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: inherit;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+.service {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-text);
+}
+
+.heading {
+  display: none;
+}
+
+.list-no-style-tasks {
+  list-style: none;
+  display: flex;
+  width: 1170px;
+  margin: 95px auto;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.tasks-heading {
+  width: 270px;
+}
+
+.tasks h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: var(--colot-text);
+}
+
+.tasks p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color);
+}
+
+.img-list {
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--colot-text);
+  margin: 0px;
+}
+
+.list-no-style-img {
+  justify-content: space-between;
+  margin: 50px 0px 94px 0px;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+.team {
+  background-color: var(--background-team);
+  padding: 94px 0;
+  text-align: center;
+}
+
+.container-team {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.list-no-style-team {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+
+.img-team {
+  width: 270px;
+  background: var(--c-light);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--colot-text);
+  margin: 0px;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--colot-text);
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--color);
+}
+
+.footer {
+  background: var(--background);
+  padding: 60px 0;
+}
+
+.footer-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.WebStudios {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-hover);
+  text-decoration: none;
+  font-family: Raleway;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mailtel-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 9px 0 0 0;
+  padding: 0px;
+}
+
+.mailtel-a {
+  color: var(--color);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 9px;
+}
+
+.mailtel-b {
+  color: var(--color);
+  text-decoration: none;
+  display: block;
+}
+
+.footer address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  color: var(--text-text);
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--color-hover);
+}
+
+.Studio {
+  color: var(--text-text);
+}
+
+.Studio- {
+  color: var(--colot-text);
+}
+
+.studioo,
+.portfolioo,
+.contact {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.list-no-style-nav- {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-right: 331px;
+  margin-left: 93px;
+}
+
+.portfolioo {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-hover);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.studioo {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--colot-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.portfolio-section {
+  padding: 94px 0;
+}
+
+.works {
+  display: none;
+}
+
+.portfolio-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.list-no-style-button {
+  justify-content: center;
+  margin: 0 0 50px 0;
+  list-style: none;
+  display: flex;
+}
+
+button:hover,
+button :focus button :active {
+  background-color: var(--color-hover);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--text-text);
+}
+
+.button-type-a {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  color: var(--colot-text);
+  background-color: var(--background-team);
+  border-radius: 4px;
+}
+
+.button-type-b {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  color: var(--colot-text);
+  background-color: var(--background-team);
+  border-radius: 4px;
+}
+
+.button-type-c {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  color: var(--colot-text);
+  background-color: var(--background-team);
+  border-radius: 4px;
+}
+
+.button-type-d {
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  color: var(--colot-text);
+  background-color: var(--background-team);
+  border-radius: 4px;
+}
+
+.button-type-e {
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  border: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  color: var(--colot-text);
+  background-color: var(--background-team);
+  border-radius: 4px;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.list-no-style-work {
+  list-style: none;
+  display: flex;
+  width: 370px;
+
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.work h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--colot-text);
+  margin: 20px 24px 4px 24px;
+}
+
+.work p {
+  font-size: 16px;
+  line-height: 1.87;
+  margin: 0 24px 20px 24px;
+  color: var(--color);
+}
