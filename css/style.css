@@ -31,21 +31,25 @@ body {
   color: var(--color-hover);
 }
 
-.list-no-style-nav {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin-right: 331px;
-  margin-left: 93px;
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
-.menu {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0px auto;
   height: 80px;
   width: 1170px;
+}
+
+.list-no-style-nav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-right: 331px;
+  margin-left: 93px;
 }
 
 .WebStudio {
@@ -104,9 +108,15 @@ body {
 
 .effect {
   background-color: var(--background);
-  height: 600px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 200px;
+  display: flex;
+}
+
+.effect-container {
+  width: 650px;
+  text-transform: uppercase;
 }
 
 .business {
@@ -147,13 +157,20 @@ body {
   display: none;
 }
 
+.tasks-container {
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list-no-style-tasks {
   list-style: none;
   display: flex;
   width: 1170px;
-  margin: 95px auto;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0;
 }
 
 .tasks-heading {
@@ -180,6 +197,7 @@ body {
   width: 1170px;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 94px;
 }
 
 .img {
@@ -194,7 +212,8 @@ body {
 
 .list-no-style-img {
   justify-content: space-between;
-  margin: 50px 0px 94px 0px;
+  margin-top: 50px;
+  margin-bottom: 0;
   list-style: none;
   display: flex;
   padding: 0px;
@@ -221,10 +240,14 @@ body {
 
 .img-team {
   width: 270px;
-  background: var(--c-light);
+  background: var(--text-text);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.img-container {
+  padding: 30px 0 30px 0;
 }
 
 .team h2 {
@@ -242,16 +265,16 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-
   color: var(--colot-text);
+  margin: 0 0 10px 0;
 }
 .team p {
   font-size: 16px;
   line-height: 1.18;
-
   letter-spacing: 0.03em;
-
   color: var(--color);
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
@@ -283,11 +306,14 @@ body {
   padding: 0px;
 }
 
+.mail {
+  padding-bottom: 9px;
+}
+
 .mailtel-a {
   color: var(--color);
   text-decoration: none;
   display: block;
-  margin-bottom: 9px;
 }
 
 .mailtel-b {
@@ -394,6 +420,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .button-type-b {
@@ -410,6 +437,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .button-type-c {
@@ -426,6 +454,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .button-type-d {
@@ -442,6 +471,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .button-type-e {
@@ -458,6 +488,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .work {
@@ -480,12 +511,16 @@ button :focus button :active {
   text-decoration: none;
 }
 
+.work-img-container {
+  padding: 20px 0 20px 0;
+}
+
 .work h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--colot-text);
-  margin: 20px 24px 4px 24px;
+  margin: 0px 0px 4px 24px;
 }
 
 .work p {
@@ -493,4 +528,6 @@ button :focus button :active {
   line-height: 1.87;
   margin: 0 24px 20px 24px;
   color: var(--color);
+  margin: 0px 0px 4px 24px;
+  padding: 0;
 }
