@@ -22,7 +22,7 @@ body {
 }
 
 .list-no-style-nav .item + .item {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .header a:hover,
@@ -44,12 +44,16 @@ body {
   width: 1170px;
 }
 
+.logo {
+  padding-right: 93px;
+}
+
 .list-no-style-nav {
   list-style: none;
   display: flex;
   padding: 0;
-  margin-right: 331px;
-  margin-left: 93px;
+
+  align-items: center;
 }
 
 .WebStudio {
@@ -103,7 +107,7 @@ body {
 }
 
 .mailtel .item + .item {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .effect {
@@ -395,6 +399,7 @@ body {
   margin: 0 0 50px 0;
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 button:hover,
@@ -496,6 +501,7 @@ button :focus button :active {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px;
+  margin: 0;
 }
 
 .list-no-style-work {
@@ -512,7 +518,7 @@ button :focus button :active {
 }
 
 .work-img-container {
-  padding: 20px 0 20px 0;
+  padding: 20px 0 20px 24px;
 }
 
 .work h2 {
@@ -520,14 +526,14 @@ button :focus button :active {
   font-size: 18px;
   line-height: 2;
   color: var(--colot-text);
-  margin: 0px 0px 4px 24px;
+  margin: 0px 0px 4px 0;
 }
 
 .work p {
   font-size: 16px;
   line-height: 1.87;
-  margin: 0 24px 20px 24px;
+
   color: var(--color);
-  margin: 0px 0px 4px 24px;
+  margin: 0px 0px 4px 0;
   padding: 0;
 }
