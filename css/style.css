@@ -22,7 +22,7 @@ body {
 }
 
 .list-no-style-nav .item + .item {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .header a:hover,
@@ -39,20 +39,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px auto;
-  height: 80px;
+  margin: 0 auto;
+
   width: 1170px;
 }
 
-.logo {
-  padding-right: 93px;
+.list-nav {
+  display: flex;
+  align-items: center;
 }
 
 .list-no-style-nav {
   list-style: none;
   display: flex;
   padding: 0;
-
+  margin: 0;
   align-items: center;
 }
 
@@ -64,6 +65,7 @@ body {
   text-decoration: none;
   font-family: Raleway;
   display: block;
+  margin-right: 93px;
 }
 
 .studio {
@@ -104,6 +106,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .mailtel .item + .item {
@@ -147,6 +150,7 @@ body {
   margin-top: 30px;
   width: 200px;
   height: 50px;
+  cursor: pointer;
 }
 .service {
   font-weight: bold;
@@ -163,7 +167,6 @@ body {
 
 .tasks-container {
   width: 1170px;
-  text-align: center;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -311,7 +314,7 @@ body {
 }
 
 .mail {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .mailtel-a {
@@ -411,6 +414,10 @@ button :focus button :active {
   color: var(--text-text);
 }
 
+.list-button {
+  margin-right: 8px;
+}
+
 .button-type-a {
   width: 73px;
   height: 38px;
@@ -425,7 +432,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 .button-type-b {
@@ -442,7 +449,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 .button-type-c {
@@ -459,7 +466,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 .button-type-d {
@@ -476,7 +483,7 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 .button-type-e {
@@ -493,24 +500,28 @@ button :focus button :active {
   color: var(--colot-text);
   background-color: var(--background-team);
   border-radius: 4px;
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 .work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   padding: 0px;
   margin: 0;
+}
+
+.work :nth-child(3n) {
+  margin-right: 0;
 }
 
 .list-no-style-work {
   list-style: none;
   display: flex;
   width: 370px;
-
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .work a {
