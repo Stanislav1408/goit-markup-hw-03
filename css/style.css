@@ -124,6 +124,7 @@ body {
 .effect-container {
   width: 650px;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 
 .business {
@@ -134,7 +135,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-text);
-  padding-top: 200px;
+
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -189,8 +190,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-
   color: var(--colot-text);
+  margin: 0;
 }
 
 .tasks p {
@@ -198,6 +199,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color);
+  margin-top: 10px;
 }
 
 .img-list {
