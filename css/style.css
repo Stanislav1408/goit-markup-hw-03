@@ -16,6 +16,12 @@ body {
   --background-team: #f5f4fa;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list-no-style {
   list-style: none;
   display: flex;
@@ -35,13 +41,18 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.container {
+.header .container {
   display: flex;
-
   justify-content: space-between;
-  margin: 0 auto;
+  align-items: center;
+}
 
-  width: 1170px;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-nav {
@@ -85,6 +96,24 @@ body {
   text-decoration: none;
 }
 
+.mailto {
+  list-style: none;
+  color: var(--color);
+  fill: var(--color);
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.tel {
+  list-style: none;
+  color: var(--color);
+  fill: var(--color);
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .studio,
 .portfolio,
 .contact {
@@ -93,7 +122,7 @@ body {
   padding-bottom: 32px;
 }
 
-.mailtel a {
+.mailtel .mailto .tel {
   list-style: none;
   color: var(--color);
   text-decoration: none;
@@ -111,6 +140,12 @@ body {
 
 .mailtel .item + .item {
   padding-left: 50px;
+}
+
+.mailtel a:hover,
+.mailtel a:focus {
+  color: var(--color-hover);
+  fill: var(--color-hover);
 }
 
 .effect {
@@ -135,7 +170,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-text);
-
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -152,23 +186,22 @@ body {
   width: 200px;
   height: 50px;
   cursor: pointer;
-}
-.service {
+  outline: none;
+  color: var(--text-text);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: var(--text-text);
+  padding: 0;
 }
 
-.heading {
+.task {
   display: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.tasks-container {
-  width: 1170px;
-  margin: 0 auto;
+.tasks {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -179,6 +212,7 @@ body {
   width: 1170px;
   justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 
 .tasks-heading {
@@ -204,9 +238,6 @@ body {
 }
 
 .img-list {
-  width: 1170px;
-  text-align: center;
-  margin: 0 auto;
   padding-bottom: 94px;
 }
 
@@ -235,11 +266,6 @@ body {
   text-align: center;
 }
 
-.container-team {
-  width: 1170px;
-  margin: 0px auto;
-}
-
 .list-no-style-team {
   list-style: none;
   display: flex;
@@ -257,7 +283,7 @@ body {
 }
 
 .img-container {
-  padding: 30px 0 30px 0;
+  padding: 30px 32px 30px 32px;
 }
 
 .team h2 {
@@ -395,11 +421,6 @@ body {
   display: none;
 }
 
-.portfolio-container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
 .list-no-style-button {
   justify-content: center;
   margin: 0 0 50px 0;
@@ -409,7 +430,8 @@ body {
 }
 
 button:hover,
-button :focus button :active {
+button :focus,
+button :active {
   background-color: var(--color-hover);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -509,7 +531,6 @@ button :focus button :active {
 .work {
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: space-between;*/
   padding: 0px;
   margin: 0;
 }
